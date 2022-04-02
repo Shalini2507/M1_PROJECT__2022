@@ -1,72 +1,59 @@
-# Food ordering management
-# Requirements
+# INTRODUCTION
 
-## Introduction
-The Restaurant Food Ordering Management System Project in C is a consoled based application created using c programming language. This system is a simple mini project and compiled in **VS Codes Both on Windows and Linux operating systems** using **GCC compiler**. This c programming project focuses on Restaurant food ordering and how to calculate the bill based on the quantities ordered. In this project, we have login and signup where customers and Admin can Log into the system. Inside the system customers can view the Menu on the basis of food sections like Starter, Main course and dessert food sections and order accordingly. The customer needs to register first then he has the access to the menu window. The customer can watch his previous orders. We have Admin section too where admin needs to login and can view the menu and previous orders. Apart from this the admin has the access to add or modify the meals.
+ATM enables the clients of a bank to have access to their account without going to the bank. This is achieved only by development the application using online concepts. The product also provides services like request for cheques, deposit cash and other advanced requirement of the user. The data is stored in the database and is retrieved whenever necessary.
 
-## Features
-- A simple consoled based Restaurant Food Ordering System.
-- It has signup and Login to the customers and Admin.
-- The user can easily order available foods.
-- Total bill calculations according to quantity ordered by the customers.
-- Different Menu Lists like Starter, Main course and Dessert.
-- Container Numbers of Items according to menu set.
-- Admin Can Add or Modify the meals accordingly.
-- Cart to Store the Meals.
-- Display the Menu List
-- Modular Based Programming.
+# AUTOMATED TELLER MACHINE AND ITS HISTORY
 
-## SWOT- Strengths, and Weakness, Opportunities Threats
-### Strengths
-- User Friendly.
-- Login, Signup and Log out.
-- Different Menu List.
-- Order Food.
-- Admin and Customers windows.
-- Admin can Add or modify the Meals.
-- Modular Based Programs.
+The term ATM stands for automated teller machine. It is an electronic device that is used by only bank customers to process account transactions. The users access their accounts through a special type of plastic card that is encoded with user information on a magnetic strip. The strip contains an identification code that is transmitted to the bank’s central computer by modem. The users insert the card into ATMs to access the account and process their account transactions. The automated teller machine was invented by John Shepherd-Barron in the year 1960. This article discusses an overview of the automated teller machine (ATM).
 
-### Weakness
--  Consoled Based C project.
-- Poor UI Design.
+The first ATM concept arose in different countries like Japan, the UK, Sweden & the US. So, Japan invented the Machine for Computer Loan that is called a computer load machine to supply cash. This device was used in the year1966.
 
-### Opportunities
--  It can be expanded by adding additional features like Search Food by Hotel or Nearby Restaurants, Sort w.r.t Name, Amount, Restaurants, etc
-- Can make the Application using other programming languages.
+After some developments, the initial cash dispensing machine was developed by Britain, in London, 1967. This machine was first used by “Barclays Bank” which is located in Enfield Town of North London. This machine was developed by the firm De La Rue & John Shepherd-Barron. This was the essential point for current ATMs.
 
-### Threats
-- There are many Food ordering Applications in the market which were build using java in android studio.
+In India, the development of ATMs was very slow because they were launched in the early 1990s to the Indians and assisted through foreign banks.
 
-## 4W's and 1'H
-- **WHAT** : Restaurant Food Ordering Management System.
-- **WHERE** : Used in Restaurants, Hotels, shops, etc.
-- **WHEN** : Party, Functions, Hunger, Food Need, etc.
-- **WHY** : For Food Ordering.
-- **HOW** : Operates by using User Inputs on Food ordering.
+When most of the banks were facing severe problems because of the lack of a strong branch system, then automated teller machines appeared like the best solution to these problems.
 
-## Detail requirements
-### High Level Requirements
-| High Level Requirements      | Description |
-| ----------- | ----------- |
-| HLR1      | Login, Signup and Log out     |
-| HLR2   | Admin and Customers|
-| HLR3   | Different Menu List|
-| HLR4   | View Menu|
-| HLR5   | Add or Modify Meals|
+The ATM machine was implemented to reduce the obstructions of the branch networking by reaching out to the customers by offering comfortable services with fewer transaction charges. After that, many improvements in this technology have arrived & also customer accessibility has also improved through boundaries.
 
-### Low Level Requirements
-| Low Level Requirements      | Description |
-| ----------- | ----------- |
-| HLR1_LLR1      | Signup(Username,Password)  |
-| HLR1_LLR2  | Login(Username,Password) |
-| HLR1_LLR3   |Log out(No Longer access)|
-| HLR2_LLR1   |Admin-Add Meal|
-| HLR2_LLR2   | Admin-View Meal|
-| HLR2_LLR3   | Admin-Modify Meal|
-| HLR3_LLR1   | Menu - Starter Meals|
-| HLR3_LLR2   | Menu - Main course Meals|
-| HLR3_LLR3   | Menu - Dessert Meals|
-| HLR4_LLR1   |Customer - View Menu|
-| HLR4_LLR2   |Customer - View Previous Orders|
-| HLR4_LLR3   |Customer - View Total Bill|
-| HLR5_LLR1   |Admin - Delete or Modify Menu|
+# ATM SYSTEM BANKING HAVING FOLLOWING FUNCTIONS:
+
+#pinGeneration
+
+#checkPin
+
+#show Balance
+
+#deposit Money
+
+#withdraw Money
+
+#Transaction status
+
+# Detail requirements
+## High Level Requirements:
+
+| ID | Description | Status |
+| --- | --- | --- |
+| HR01 | User must be able to generate pin number | Implemented |
+| HR02 | User must be able to validate pin | Implemented |
+| HR03 | User must be able to view the banking options | Implemented |
+| HR04 | User must be able to access banking options| Implemented |
+| HR05 | User must be able to check balance| Implemented |
+| HR06 | User must be able to Deposit money| Implemented |
+| HR07 | User must be able to withdraw money| Implemented |
+
+##  Low level Requirements:
+
+| ID | Description | Status |
+| --- | --- | --- |
+| LR01 | User can access any banking option multiple times|Implemented |
+| LR02 | Verify wheater a trasaction is successful or not| Implemented |
+| LR03 | Display receipt of trasaction with req details | Future|
+| LR04 | Make ATM PIN secure | Future |
+| LR05 | Backup availability | Future |
+
+
+
+
+
